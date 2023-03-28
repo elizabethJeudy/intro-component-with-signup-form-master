@@ -49,16 +49,42 @@
 						thereafter
 					</div>
 					<div class="user-input">
-						<form class="input-form">
-							<input type="text" placeholder="First Name" />
-							<br />
-							<input type="text" placeholder="Last Name" />
-							<br />
-							<input type="email" placeholder="Email Address" />
-							<br />
-							<input type="password" placeholder="Password" />
+						<form id="myForm">
+							<label for="firstName">First Name</label>
+							<input
+								type="text"
+								id="firstName"
+								name="firstName"
+								placeholder="First Name"
+							/>
+
+							<label for="lastName">Last Name</label>
+							<input
+								type="text"
+								id="lastName"
+								name="lastName"
+								placeholder="Last Name"
+							/>
+
+							<label for="email">Email</label>
+							<input
+								type="email"
+								id="email"
+								name="email"
+								placeholder="Email Address"
+							/>
+
+							<label for="password">Password</label>
+							<input
+								type="password"
+								id="password"
+								name="password"
+								placeholder="Password"
+							/>
+
+							<input type="submit" value="CLAIM YOUR FREE TRIAL" id="submit" />
 						</form>
-						<button class="claim-btn">CLAIM YOUR FREE TRIAL</button>
+
 						<p class="terms">
 							By clicking the button, you are agreeing to our
 							<strong>Terms and Services</strong>
