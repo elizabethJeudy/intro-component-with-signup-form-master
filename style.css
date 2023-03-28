@@ -47,7 +47,7 @@ h1 {
   box-sizing: border-box;
   background-color: white;
   width: 700px;
-  height: 600px;
+  height: 650px;
   padding: 0 20px 20px 20px;
   box-shadow: 0 8px 2px -2px var(--box-shadow);
 }
@@ -88,6 +88,13 @@ strong {
   color: white;
 }
 
+.error {
+  color: red;
+  font-style: italic;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
 
 .attribution {
   padding-top: 10px;
