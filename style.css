@@ -1,0 +1,83 @@
+/*
+font weights: 400, 500, 600, 700
+*/
+
+:root {
+  --primary-color: hsl(0, 100%, 74%);
+  --secondary-color: hsl(154, 59%, 51%);
+  --accent-color: hsl(248, 32%, 49%);
+  --box-shadow: #85568B;
+}
+
+body {
+  padding-right: 200px;
+  padding-left: 50px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--primary-color);
+  background-image: url("images/bg-intro-desktop.png");
+}
+
+h1 {
+  font-weight: 700;
+  color: white;
+}
+
+.trial {
+  width: 500px;
+  height: 50px;
+  margin: 20px 20px 20px 0;
+  border-radius: 10px;
+  background-color: var(--accent-color);
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 8px #85568b3e;
+}
+
+.user-input {
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  box-shadow: 5px 8px #85568b3e;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid hsl(249, 10%, 26%);
+  margin-bottom: 15px;
+}
+
+.claim-btn {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.terms {
+  color: var(--accent-color);
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+strong {
+  color: red;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
